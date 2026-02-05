@@ -21,6 +21,7 @@ function normalizeNeeds(needs) {
     return [];
   }
 }
+      window.app_api_base = "https://railway.com/project/9f508fde-a20b-4521-b993-13e446ecb863?environmentId=af621b2e-4acb-420e-9702-6c6cde674699";
 
 function normalizeValue(value, fallback = null) {
   return value === undefined ? fallback : value;
