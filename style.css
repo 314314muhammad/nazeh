@@ -1,0 +1,2275 @@
+/* Combined page styles (auto-generated)
+   ترتيب القواعد محفوظ لمنع أي تغير بصري.
+
+   فهرس الأقسام:
+   1) page-index     - index_modified.php
+   2) page-families  - families_management.php
+   3) page-people    - people.php
+   4) page-rooms     - rooms.php
+   5) page-styleguide- families_custom_styles.html
+*/
+
+
+/* ===== index_modified.php ===== */
+
+/* === متغيرات CSS الموحدة - Modern Minimalist Dark Mode Design System === */
+      html.page-index {
+        /* نظام الألوان الأساسي - غامق */
+        --bg-color: #0b0a09;
+        --card-bg: #141210;
+        --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --glass-bg: rgba(241, 238, 231, 0.03);
+        --glass-border: rgba(241, 238, 231, 0.08);
+        --glass-blur: blur(16px);
+        --text-color: #f1eee7;
+        --text-muted: #b6aea6;
+
+        /* نظام الألوان المونوكروم */
+        --monochrome-1: #f1eee7;
+        --monochrome-2: #d9d2c9;
+        --monochrome-3: #b6aea6;
+        --monochrome-4: #9c958d;
+        --monochrome-5: #5f5a57;
+        --monochrome-6: #3b3836;
+        --monochrome-7: #201f1e;
+        --monochrome-8: #0b0a09;
+
+        /* الألوان الهامة */
+        --success: #9c958d;
+        --danger: #8a1028;
+        --danger-hover: #a11a34;
+        --warning: #9c958d;
+
+        /* تأثيرات التفاعل */
+        --hover-bg: rgba(241, 238, 231, 0.04);
+        --active-bg: rgba(241, 238, 231, 0.08);
+        --glow-subtle: 0 0 20px rgba(109, 0, 26, 0.2);
+
+        /* تنسيقات الأزرار الموحدة */
+        --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+        --btn-primary-text: #f1eee7;
+
+        /* تنسيقات الحقول */
+        --input-focus-ring: rgba(241, 238, 231, 0.35);
+        --input-selection-bg: rgba(241, 238, 231, 0.08);
+
+        /* تنسيقات المودال */
+        --modal-overlay: rgba(6, 6, 6, 0.95);
+        --modal-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+
+        /* عناصر بصرية إضافية */
+        --orb-1: radial-gradient(
+          circle,
+          rgba(109, 0, 26, 0.18) 0%,
+          transparent 70%
+        );
+        --orb-2: radial-gradient(
+          circle,
+          rgba(156, 149, 141, 0.14) 0%,
+          transparent 70%
+        );
+
+        --stat-1-bg: rgba(109, 0, 26, 0.25);
+        --stat-1-fg: #e7c7cc;
+        --stat-2-bg: rgba(156, 149, 141, 0.22);
+        --stat-2-fg: #e8e1d9;
+        --stat-3-bg: rgba(95, 90, 87, 0.28);
+        --stat-3-fg: #d6cec6;
+        --stat-4-bg: rgba(241, 238, 231, 0.12);
+        --stat-4-fg: #f1eee7;
+        --stat-5-bg: rgba(109, 0, 26, 0.18);
+        --stat-5-fg: #f1dfe2;
+        --stat-6-bg: rgba(156, 149, 141, 0.18);
+        --stat-6-fg: #e5ded6;
+
+        --chart-1-bg: rgba(109, 0, 26, 0.8);
+        --chart-1-border: rgba(109, 0, 26, 1);
+        --chart-2-bg: rgba(156, 149, 141, 0.8);
+        --chart-2-border: rgba(156, 149, 141, 1);
+        --chart-3-bg: rgba(95, 90, 87, 0.8);
+        --chart-3-border: rgba(95, 90, 87, 1);
+        --chart-4-bg: rgba(241, 238, 231, 0.75);
+        --chart-4-border: rgba(241, 238, 231, 1);
+        --chart-5-bg: rgba(109, 0, 26, 0.6);
+        --chart-5-border: rgba(109, 0, 26, 0.9);
+        --chart-6-bg: rgba(156, 149, 141, 0.6);
+        --chart-6-border: rgba(156, 149, 141, 0.9);
+        --chart-7-bg: rgba(95, 90, 87, 0.6);
+        --chart-7-border: rgba(95, 90, 87, 0.9);
+        --chart-8-bg: rgba(241, 238, 231, 0.5);
+        --chart-8-border: rgba(241, 238, 231, 0.8);
+
+        --health-ok-bg: rgba(156, 149, 141, 0.8);
+        --health-ok-border: rgba(156, 149, 141, 1);
+        --health-chronic-bg: rgba(109, 0, 26, 0.8);
+        --health-chronic-border: rgba(109, 0, 26, 1);
+        --health-disability-bg: rgba(95, 90, 87, 0.8);
+        --health-disability-border: rgba(95, 90, 87, 1);
+        --health-other-bg: rgba(241, 238, 231, 0.7);
+        --health-other-border: rgba(241, 238, 231, 0.9);
+
+        --theme-pill-bg: rgba(241, 238, 231, 0.08);
+        --theme-pill-text: #f1eee7;
+        --theme-pill-border: rgba(241, 238, 231, 0.12);
+      }
+
+      html.page-index[data-theme="burgundy"] {
+        /* أبيض + أسود + برغندي */
+        --bg-color: #f6f3ef;
+        --card-bg: #ffffff;
+        --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --glass-bg: rgba(27, 26, 25, 0.02);
+        --glass-border: rgba(27, 26, 25, 0.12);
+        --text-color: #1b1a19;
+        --text-muted: #6f6a66;
+
+        --monochrome-1: #1b1a19;
+        --monochrome-2: #2e2b29;
+        --monochrome-3: #4b4745;
+        --monochrome-4: #6f6a66;
+        --monochrome-5: #8f8881;
+        --monochrome-6: #b9b2ab;
+        --monochrome-7: #ded8d1;
+        --monochrome-8: #f6f3ef;
+
+        --success: #4b4745;
+        --danger: #6d001a;
+        --danger-hover: #7a1126;
+        --warning: #6f6a66;
+
+        --hover-bg: rgba(109, 0, 26, 0.06);
+        --active-bg: rgba(109, 0, 26, 0.12);
+        --glow-subtle: 0 0 18px rgba(109, 0, 26, 0.25);
+
+        --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+        --btn-primary-text: #f6f3ef;
+
+        --input-focus-ring: rgba(109, 0, 26, 0.35);
+        --input-selection-bg: rgba(109, 0, 26, 0.08);
+
+        --modal-overlay: rgba(17, 16, 15, 0.6);
+        --modal-shadow: 0 24px 60px rgba(27, 26, 25, 0.25);
+
+        --orb-1: radial-gradient(
+          circle,
+          rgba(109, 0, 26, 0.12) 0%,
+          transparent 70%
+        );
+        --orb-2: radial-gradient(
+          circle,
+          rgba(27, 26, 25, 0.08) 0%,
+          transparent 70%
+        );
+
+        --stat-1-bg: rgba(109, 0, 26, 0.12);
+        --stat-1-fg: #6d001a;
+        --stat-2-bg: rgba(27, 26, 25, 0.08);
+        --stat-2-fg: #4b4745;
+        --stat-3-bg: rgba(27, 26, 25, 0.06);
+        --stat-3-fg: #2e2b29;
+        --stat-4-bg: rgba(109, 0, 26, 0.08);
+        --stat-4-fg: #6d001a;
+        --stat-5-bg: rgba(27, 26, 25, 0.08);
+        --stat-5-fg: #4b4745;
+        --stat-6-bg: rgba(109, 0, 26, 0.08);
+        --stat-6-fg: #6d001a;
+
+        --chart-1-bg: rgba(109, 0, 26, 0.75);
+        --chart-1-border: rgba(109, 0, 26, 1);
+        --chart-2-bg: rgba(27, 26, 25, 0.55);
+        --chart-2-border: rgba(27, 26, 25, 0.85);
+        --chart-3-bg: rgba(111, 106, 102, 0.65);
+        --chart-3-border: rgba(111, 106, 102, 0.9);
+        --chart-4-bg: rgba(213, 207, 200, 0.9);
+        --chart-4-border: rgba(185, 178, 171, 1);
+        --chart-5-bg: rgba(109, 0, 26, 0.5);
+        --chart-5-border: rgba(109, 0, 26, 0.8);
+        --chart-6-bg: rgba(27, 26, 25, 0.45);
+        --chart-6-border: rgba(27, 26, 25, 0.7);
+        --chart-7-bg: rgba(111, 106, 102, 0.45);
+        --chart-7-border: rgba(111, 106, 102, 0.7);
+        --chart-8-bg: rgba(213, 207, 200, 0.7);
+        --chart-8-border: rgba(185, 178, 171, 0.9);
+
+        --health-ok-bg: rgba(27, 26, 25, 0.55);
+        --health-ok-border: rgba(27, 26, 25, 0.85);
+        --health-chronic-bg: rgba(109, 0, 26, 0.7);
+        --health-chronic-border: rgba(109, 0, 26, 0.95);
+        --health-disability-bg: rgba(111, 106, 102, 0.6);
+        --health-disability-border: rgba(111, 106, 102, 0.9);
+        --health-other-bg: rgba(213, 207, 200, 0.7);
+        --health-other-border: rgba(185, 178, 171, 0.9);
+
+        --theme-pill-bg: rgba(109, 0, 26, 0.08);
+        --theme-pill-text: #1b1a19;
+        --theme-pill-border: rgba(109, 0, 26, 0.2);
+      }
+
+      /* === جسم الصفحة === */
+      html.page-index body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: "Tajawal", sans-serif;
+        letter-spacing: 0.01em;
+        line-height: 1.7;
+        overflow-x: hidden;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      /* === الحاوية الرئيسية === */
+      html.page-index .container {
+        width: 96% !important;
+        max-width: 1400px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      @media (min-width: 1024px) {
+        html.page-index .container {
+          width: 90% !important;
+        }
+      }
+
+      /* === الخلفية المتحركة - Subtle Grayscale === */
+      html.page-index .orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(100px);
+        z-index: -1;
+        animation: float 10s infinite ease-in-out;
+        pointer-events: none;
+      }
+      html.page-index .orb-1 {
+        top: -10%;
+        left: -10%;
+        width: 50vw;
+        height: 50vw;
+        background: var(--orb-1);
+      }
+      html.page-index .orb-2 {
+        bottom: -10%;
+        right: -10%;
+        width: 60vw;
+        height: 60vw;
+        background: var(--orb-2);
+        animation-delay: -5s;
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(30px, 50px);
+        }
+      }
+
+      /* === المكونات الزجاجية الموحدة - Minimalist === */
+      html.page-index .glass-panel {
+        background: var(--card-bg);
+        backdrop-filter: var(--glass-blur);
+        -webkit-backdrop-filter: var(--glass-blur);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        transition: border-color 0.3s ease;
+      }
+      html.page-index .glass-panel:hover {
+        border-color: rgba(255, 255, 255, 0.1);
+      }
+      html.page-index .stat-btn {
+        cursor: pointer;
+      }
+      html.page-index .stat-btn:focus-visible {
+        outline: 2px solid var(--input-focus-ring);
+        outline-offset: 2px;
+      }
+      html.page-index .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+      html.page-index .summary-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 1rem;
+      }
+      html.page-index .summary-title {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.35rem;
+      }
+      html.page-index .summary-value {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+      html.page-index .insights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+      html.page-index .insight-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 1rem;
+      }
+      html.page-index .insight-title {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.35rem;
+      }
+      html.page-index .insight-value {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+
+      /* === حقول الإدخال الزجاجية - Unified Style === */
+      html.page-index .glass-input, html.page-index select.glass-input {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        color: var(--text-color);
+        padding: 10px 15px;
+        border-radius: 8px;
+        width: 100%;
+        outline: none;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 0.95rem;
+        letter-spacing: 0.01em;
+      }
+      html.page-index select.glass-input option {
+        background: var(--card-bg);
+        color: var(--text-color);
+      }
+      html.page-index .glass-input:focus, html.page-index select.glass-input:focus {
+        border-color: var(--input-focus-ring);
+        background: var(--input-selection-bg);
+        box-shadow: 0 0 2px var(--input-focus-ring);
+      }
+      html.page-index .glass-input::placeholder {
+        color: var(--text-muted);
+      }
+
+      /* === الأزرار - Monochrome Silver === */
+      html.page-index .btn-primary {
+        background: var(--btn-primary-bg);
+        color: var(--btn-primary-text);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      html.page-index .btn-primary:hover {
+        background: var(--btn-primary-hover);
+        transform: translateY(-1px);
+        box-shadow: var(--glow-subtle);
+      }
+      html.page-index .btn-primary:active {
+        transform: translateY(0);
+      }
+
+      html.page-index .btn-close {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        color: var(--text-color);
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      html.page-index .btn-close:hover {
+        background: var(--active-bg);
+        border-color: var(--input-focus-ring);
+      }
+
+      /* === شريط التمرير === */
+      html.page-index ::-webkit-scrollbar {
+        width: 8px;
+      }
+      html.page-index ::-webkit-scrollbar-track {
+        background: var(--bg-color);
+      }
+      html.page-index ::-webkit-scrollbar-thumb {
+        background: var(--monochrome-6);
+        border-radius: 4px;
+      }
+      html.page-index ::-webkit-scrollbar-thumb:hover {
+        background: var(--monochrome-5);
+      }
+
+      /* === Modal Styles === */
+      html.page-index .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: var(--modal-overlay);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+      }
+      html.page-index .modal-overlay.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      html.page-index .modal-content {
+        background: var(--card-bg);
+        backdrop-filter: var(--glass-blur);
+        -webkit-backdrop-filter: var(--glass-blur);
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        width: 96%;
+        max-width: 600px;
+        max-height: 90vh;
+        overflow-y: auto;
+        box-shadow: var(--modal-shadow);
+        transform: scale(0.95);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      html.page-index .modal-overlay.active .modal-content {
+        transform: scale(1);
+      }
+      html.page-index .btn-danger {
+        background: var(--danger);
+        color: var(--text-color);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      html.page-index .btn-danger:hover {
+        background: var(--danger-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 0 10px rgba(174, 43, 43, 0.5);
+      }
+      html.page-index .btn-danger:active {
+        transform: translateY(0);
+      }
+
+      /* === Theme Switcher === */
+      html.page-index .theme-switcher {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 4px;
+        background: var(--theme-pill-bg);
+        border: 1px solid var(--theme-pill-border);
+        border-radius: 999px;
+      }
+      html.page-index .theme-btn {
+        background: transparent;
+        color: var(--text-muted);
+        border: none;
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+      html.page-index .theme-btn:hover {
+        color: var(--text-color);
+      }
+      html.page-index .theme-btn.active {
+        background: var(--btn-primary-bg);
+        color: var(--btn-primary-text);
+        box-shadow: var(--glow-subtle);
+      }
+
+      /* === Chart Container === */
+      html.page-index .chart-container {
+        position: relative;
+        height: 250px;
+        width: 100%;
+      }
+
+      /* === Loading Spinner - Monochrome === */
+      html.page-index .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid var(--glass-border);
+        border-top-color: var(--monochrome-4);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* === Utility Classes for Monochrome Colors === */
+      html.page-index .text-monochrome-1 {
+        color: var(--monochrome-1);
+      }
+      html.page-index .text-monochrome-2 {
+        color: var(--monochrome-2);
+      }
+      html.page-index .text-monochrome-3 {
+        color: var(--monochrome-3);
+      }
+      html.page-index .text-monochrome-4 {
+        color: var(--monochrome-4);
+      }
+      html.page-index .text-monochrome-5 {
+        color: var(--monochrome-5);
+      }
+      html.page-index .bg-monochrome-1 {
+        background-color: var(--monochrome-1);
+      }
+      html.page-index .bg-monochrome-2 {
+        background-color: var(--monochrome-2);
+      }
+      html.page-index .bg-monochrome-3 {
+        background-color: var(--monochrome-3);
+      }
+      html.page-index .bg-monochrome-4 {
+        background-color: var(--monochrome-4);
+      }
+      html.page-index .border-monochrome-4 {
+        border-color: var(--monochrome-4);
+      }
+
+      /* === Hide Scrollbar in Modal === */
+      html.page-index .modal-content::-webkit-scrollbar {
+        width: 6px;
+      }
+      html.page-index .modal-content::-webkit-scrollbar-track {
+        background: var(--bg-color);
+      }
+      html.page-index .modal-content::-webkit-scrollbar-thumb {
+        background: var(--monochrome-7);
+        border-radius: 3px;
+      }
+
+      /* === Floor Rooms Grid === */
+      html.page-index .floor-rooms-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      html.page-index .room-item {
+        padding: 0.5rem;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--glass-border);
+        border-radius: 6px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      html.page-index .floor-section {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.01);
+        border: 1px solid var(--glass-border);
+        border-radius: 8px;
+      }
+
+
+
+/* ===== families_management.php ===== */
+
+html.page-families {
+            /* نظام الألوان الأساسي - غامق */
+            --bg-color: #0b0a09;
+            --card-bg: #141210;
+            --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --glass-bg: rgba(241, 238, 231, 0.03);
+            --glass-border: rgba(241, 238, 231, 0.08);
+            --glass-blur: blur(16px);
+            --text-color: #f1eee7;
+            --text-muted: #b6aea6;
+            
+            /* Monochrome scale */
+            --monochrome-1: #f1eee7;
+            --monochrome-2: #d9d2c9;
+            --monochrome-3: #b6aea6;
+            --monochrome-4: #9c958d;
+            --monochrome-5: #5f5a57;
+            --monochrome-6: #3b3836;
+            --monochrome-7: #201f1e;
+            --monochrome-8: #0b0a09;
+
+            /* Accent grays */
+            --accent-white: #f1eee7;
+            --accent-gray-100: #e8e1d9;
+            --accent-gray-200: #d9d2c9;
+            --accent-gray-300: #b6aea6;
+            --accent-gray-400: #9c958d;
+            --accent-gray-500: #5f5a57;
+            --accent-gray-600: #3b3836;
+            --accent-gray-700: #201f1e;
+            --accent-black: #0b0a09;
+            
+            /* State colors */
+            --success: #9c958d;
+            --error: #8a1028;
+            --warning: #9c958d;
+            
+            /* Interactive effects */
+            --hover-bg: rgba(241, 238, 231, 0.04);
+            --active-bg: rgba(241, 238, 231, 0.08);
+            --glow-subtle: 0 0 20px rgba(109, 0, 26, 0.2);
+            
+            /* Button styles */
+            --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+            --btn-primary-text: #f1eee7;
+            
+            /* Input focus */
+            --input-focus-ring: rgba(241, 238, 231, 0.35);
+            --input-selection-bg: rgba(241, 238, 231, 0.08);
+            
+            /* Modal styles */
+            --modal-overlay: rgba(6, 6, 6, 0.95);
+            --modal-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+
+            /* Visual accents */
+            --orb-1: radial-gradient(circle, rgba(109, 0, 26, 0.18) 0%, transparent 70%);
+            --orb-2: radial-gradient(circle, rgba(156, 149, 141, 0.14) 0%, transparent 70%);
+
+            --stat-1-bg: rgba(109, 0, 26, 0.22);
+            --stat-1-fg: #e7c7cc;
+            --stat-2-bg: rgba(156, 149, 141, 0.22);
+            --stat-2-fg: #e8e1d9;
+        }
+
+        html.page-families[data-theme="burgundy"] {
+            /* أبيض + أسود + برغندي */
+            --bg-color: #f6f3ef;
+            --card-bg: #ffffff;
+            --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --glass-bg: rgba(27, 26, 25, 0.02);
+            --glass-border: rgba(27, 26, 25, 0.12);
+            --text-color: #1b1a19;
+            --text-muted: #6f6a66;
+
+            --monochrome-1: #1b1a19;
+            --monochrome-2: #2e2b29;
+            --monochrome-3: #4b4745;
+            --monochrome-4: #6f6a66;
+            --monochrome-5: #8f8881;
+            --monochrome-6: #b9b2ab;
+            --monochrome-7: #ded8d1;
+            --monochrome-8: #f6f3ef;
+
+            --accent-white: #ffffff;
+            --accent-gray-100: #ded8d1;
+            --accent-gray-200: #b9b2ab;
+            --accent-gray-300: #8f8881;
+            --accent-gray-400: #6f6a66;
+            --accent-gray-500: #4b4745;
+            --accent-gray-600: #2e2b29;
+            --accent-gray-700: #1b1a19;
+            --accent-black: #0b0a09;
+
+            --success: #4b4745;
+            --error: #6d001a;
+            --warning: #6f6a66;
+
+            --hover-bg: rgba(109, 0, 26, 0.06);
+            --active-bg: rgba(109, 0, 26, 0.12);
+            --glow-subtle: 0 0 18px rgba(109, 0, 26, 0.25);
+
+            --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+            --btn-primary-text: #f6f3ef;
+
+            --input-focus-ring: rgba(109, 0, 26, 0.35);
+            --input-selection-bg: rgba(109, 0, 26, 0.08);
+
+            --modal-overlay: rgba(17, 16, 15, 0.6);
+            --modal-shadow: 0 24px 60px rgba(27, 26, 25, 0.25);
+
+            --orb-1: radial-gradient(circle, rgba(109, 0, 26, 0.12) 0%, transparent 70%);
+            --orb-2: radial-gradient(circle, rgba(27, 26, 25, 0.08) 0%, transparent 70%);
+
+            --stat-1-bg: rgba(109, 0, 26, 0.12);
+            --stat-1-fg: #6d001a;
+            --stat-2-bg: rgba(27, 26, 25, 0.08);
+            --stat-2-fg: #4b4745;
+        }
+        
+        html.page-families body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Tajawal', sans-serif;
+            letter-spacing: 0.01em;
+            line-height: 1.7;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        html.page-families .composition-card.hidden-choice {
+            display: none;
+        }
+
+        /* الخلفية المتحركة - Subtle Grayscale */
+        html.page-families .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -1;
+            animation: float 10s infinite ease-in-out;
+            pointer-events: none;
+        }
+        html.page-families .orb-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--orb-1);
+        }
+        html.page-families .orb-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 60vw;
+            height: 60vw;
+            background: var(--orb-2);
+            animation-delay: -5s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(30px, 50px); }
+        }
+
+        /* الحاوية الرئيسية */
+        html.page-families .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 96%;
+        }
+
+        @media (min-width: 1024px) {
+            html.page-families .container {
+                width: 90%;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        /* === المكونات الزجاجية الموحدة - Minimalist === */
+        html.page-families .glass-panel {
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            transition: border-color 0.3s ease;
+        }
+        html.page-families .glass-panel:hover {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        html.page-families .stat-btn {
+            cursor: pointer;
+        }
+        html.page-families .stat-btn:focus-visible {
+            outline: 2px solid var(--input-focus-ring);
+            outline-offset: 2px;
+        }
+
+        /* === حقول الإدخال الزجاجية - Unified Style === */
+        html.page-families .glass-input, html.page-families select.glass-input {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            width: 100%;
+            outline: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 0.95rem;
+            letter-spacing: 0.01em;
+        }
+        html.page-families .filters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        html.page-families .actions-row {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        html.page-families .results-count {
+            margin: 0 0 1rem 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        html.page-families select.glass-input option {
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+        html.page-families .glass-input:focus, html.page-families select.glass-input:focus {
+            border-color: var(--input-focus-ring);
+            background: var(--input-selection-bg);
+            box-shadow: 0 0 2px var(--input-focus-ring);
+        }
+        html.page-families .glass-input::placeholder {
+            color: var(--text-muted);
+        }
+        html.page-families .glass-input:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* === الأزرار - Monochrome Silver === */
+        html.page-families .btn-primary {
+            background: var(--btn-primary-bg);
+            color: var(--btn-primary-text);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        html.page-families .btn-primary:hover {
+            background: var(--btn-primary-hover);
+            transform: translateY(-1px);
+            box-shadow: var(--glow-subtle);
+        }
+        html.page-families .btn-primary:active {
+            transform: translateY(0);
+        }
+        html.page-families .btn-secondary {
+            background: var(--glass-bg);
+            color: var(--text-muted);
+            border: 1px solid var(--glass-border);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        html.page-families .btn-secondary:hover {
+            background: var(--hover-bg);
+            border-color: var(--input-focus-ring);
+            color: var(--text-color);
+            transform: translateY(-1px);
+        }
+        /* === Theme Switcher === */
+        html.page-families .theme-switcher {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 4px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 999px;
+        }
+        html.page-families .theme-btn {
+            background: transparent;
+            color: var(--text-muted);
+            border: none;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        html.page-families .theme-btn:hover {
+            color: var(--text-color);
+        }
+        html.page-families .theme-btn.active {
+            background: var(--btn-primary-bg);
+            color: var(--btn-primary-text);
+            box-shadow: var(--glow-subtle);
+        }
+
+        html.page-families .btn-close {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        html.page-families .btn-close:hover {
+            background: var(--active-bg);
+            border-color: var(--input-focus-ring);
+        }
+
+        /* === كروت العائلات - Minimalist === */
+        html.page-families .family-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+            background: var(--hover-bg);
+        }
+        html.page-families .family-card:hover {
+            transform: translateY(-2px);
+            background: var(--hover-bg);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        html.page-families .family-card.selected {
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        /* === بطاقات تكوين الأسرة التفاعلية === */
+        html.page-families .composition-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        html.page-families .composition-card {
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        html.page-families .composition-card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            background: var(--hover-bg);
+            transform: translateY(-2px);
+        }
+
+        html.page-families .composition-card.active {
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.04);
+            box-shadow: var(--glow-subtle);
+        }
+
+        html.page-families .composition-card .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            background: var(--hover-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--accent-gray-300);
+            transition: all 0.3s ease;
+        }
+
+        html.page-families .composition-card:hover .icon-wrapper, html.page-families .composition-card.active .icon-wrapper {
+            background: var(--btn-primary-bg);
+            color: #000;
+        }
+
+        html.page-families .composition-card .card-content {
+            flex: 1;
+        }
+
+        html.page-families .composition-card .card-title {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: var(--text-color);
+        }
+
+        html.page-families .composition-card .card-description {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        html.page-families .composition-card .check-indicator {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        html.page-families .composition-card.active .check-indicator {
+            background: var(--btn-primary-bg);
+            border-color: var(--accent-gray-400);
+        }
+
+        html.page-families .composition-card .check-indicator::after {
+            content: '✓';
+            font-size: 0.8rem;
+            color: #000;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.3s ease;
+        }
+
+        html.page-families .composition-card.active .check-indicator::after {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* === المودال === */
+        html.page-families .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--modal-overlay);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        html.page-families .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        html.page-families .modal-content {
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            width: 96%;
+            max-width: 900px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: var(--modal-shadow);
+            transform: scale(0.95);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        html.page-families .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+
+        html.page-families .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        html.page-families .modal-body {
+            padding: 1.5rem;
+        }
+
+        html.page-families .modal-footer {
+            padding: 1.5rem;
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+
+        html.page-families .label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        html.page-families .error-message {
+            color: var(--error);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+
+        html.page-families .error-message.hidden {
+            display: none;
+        }
+
+        html.page-families .hidden {
+            display: none !important;
+        }
+
+        html.page-families .families-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        html.page-families .child-row, html.page-families .relative-row {
+            padding: 1rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        html.page-families ::-webkit-scrollbar {
+            width: 8px;
+        }
+        html.page-families ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+        html.page-families ::-webkit-scrollbar-thumb {
+            background: var(--accent-gray-600);
+            border-radius: 4px;
+        }
+        html.page-families ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-gray-500);
+        }
+
+
+
+/* ===== people.php ===== */
+
+html.page-people {
+            /* نظام الألوان الأساسي - غامق */
+            --bg-color: #0b0a09;
+            --card-bg: #141210;
+            --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --glass-bg: rgba(241, 238, 231, 0.03);
+            --glass-border: rgba(241, 238, 231, 0.08);
+            --glass-blur: blur(16px);
+            --text-color: #f1eee7;
+            --text-muted: #b6aea6;
+
+            /* Monochrome scale */
+            --monochrome-1: #f1eee7;
+            --monochrome-2: #d9d2c9;
+            --monochrome-3: #b6aea6;
+            --monochrome-4: #9c958d;
+            --monochrome-5: #5f5a57;
+            --monochrome-6: #3b3836;
+            --monochrome-7: #201f1e;
+            --monochrome-8: #0b0a09;
+
+            /* Accent grays */
+            --accent-white: #f1eee7;
+            --accent-gray-100: #e8e1d9;
+            --accent-gray-200: #d9d2c9;
+            --accent-gray-300: #b6aea6;
+            --accent-gray-400: #9c958d;
+            --accent-gray-500: #5f5a57;
+            --accent-gray-600: #3b3836;
+            --accent-gray-700: #201f1e;
+            --accent-black: #0b0a09;
+
+            /* State colors */
+            --success: #9c958d;
+            --error: #8a1028;
+            --warning: #9c958d;
+
+            /* Interactive effects */
+            --hover-bg: rgba(241, 238, 231, 0.04);
+            --active-bg: rgba(241, 238, 231, 0.08);
+            --glow-subtle: 0 0 20px rgba(109, 0, 26, 0.2);
+
+            /* Button styles */
+            --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+            --btn-primary-text: #f1eee7;
+
+            /* Input focus */
+            --input-focus-ring: rgba(241, 238, 231, 0.35);
+            --input-selection-bg: rgba(241, 238, 231, 0.08);
+
+            /* Modal styles */
+            --modal-overlay: rgba(6, 6, 6, 0.95);
+            --modal-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+
+            /* Visual accents */
+            --orb-1: radial-gradient(circle, rgba(109, 0, 26, 0.18) 0%, transparent 70%);
+            --orb-2: radial-gradient(circle, rgba(156, 149, 141, 0.14) 0%, transparent 70%);
+
+            --stat-1-border: #6d001a;
+            --stat-2-border: #9c958d;
+            --stat-3-border: #5f5a57;
+            --stat-4-border: #b6aea6;
+            --stat-5-border: #6d001a;
+            --stat-6-border: #9c958d;
+
+            --health-ok: #9c958d;
+            --health-chronic: #6d001a;
+            --health-disability: #5f5a57;
+            --health-ok-bg: rgba(156, 149, 141, 0.12);
+            --health-chronic-bg: rgba(109, 0, 26, 0.12);
+            --health-disability-bg: rgba(95, 90, 87, 0.12);
+
+            --theme-pill-bg: rgba(241, 238, 231, 0.08);
+            --theme-pill-text: #f1eee7;
+            --theme-pill-border: rgba(241, 238, 231, 0.12);
+        }
+
+        html.page-people[data-theme="burgundy"] {
+            /* أبيض + أسود + برغندي */
+            --bg-color: #f6f3ef;
+            --card-bg: #ffffff;
+            --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --glass-bg: rgba(27, 26, 25, 0.02);
+            --glass-border: rgba(27, 26, 25, 0.12);
+            --text-color: #1b1a19;
+            --text-muted: #6f6a66;
+
+            --monochrome-1: #1b1a19;
+            --monochrome-2: #2e2b29;
+            --monochrome-3: #4b4745;
+            --monochrome-4: #6f6a66;
+            --monochrome-5: #8f8881;
+            --monochrome-6: #b9b2ab;
+            --monochrome-7: #ded8d1;
+            --monochrome-8: #f6f3ef;
+
+            --accent-white: #ffffff;
+            --accent-gray-100: #ded8d1;
+            --accent-gray-200: #b9b2ab;
+            --accent-gray-300: #8f8881;
+            --accent-gray-400: #6f6a66;
+            --accent-gray-500: #4b4745;
+            --accent-gray-600: #2e2b29;
+            --accent-gray-700: #1b1a19;
+            --accent-black: #0b0a09;
+
+            --success: #4b4745;
+            --error: #6d001a;
+            --warning: #6f6a66;
+
+            --hover-bg: rgba(109, 0, 26, 0.06);
+            --active-bg: rgba(109, 0, 26, 0.12);
+            --glow-subtle: 0 0 18px rgba(109, 0, 26, 0.25);
+
+            --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+            --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+            --btn-primary-text: #f6f3ef;
+
+            --input-focus-ring: rgba(109, 0, 26, 0.35);
+            --input-selection-bg: rgba(109, 0, 26, 0.08);
+
+            --modal-overlay: rgba(17, 16, 15, 0.6);
+            --modal-shadow: 0 24px 60px rgba(27, 26, 25, 0.25);
+
+            --orb-1: radial-gradient(circle, rgba(109, 0, 26, 0.12) 0%, transparent 70%);
+            --orb-2: radial-gradient(circle, rgba(27, 26, 25, 0.08) 0%, transparent 70%);
+
+            --stat-1-border: #6d001a;
+            --stat-2-border: #4b4745;
+            --stat-3-border: #2e2b29;
+            --stat-4-border: #6f6a66;
+            --stat-5-border: #6d001a;
+            --stat-6-border: #4b4745;
+
+            --health-ok: #4b4745;
+            --health-chronic: #6d001a;
+            --health-disability: #6f6a66;
+            --health-ok-bg: rgba(75, 71, 69, 0.12);
+            --health-chronic-bg: rgba(109, 0, 26, 0.12);
+            --health-disability-bg: rgba(111, 106, 102, 0.12);
+
+            --theme-pill-bg: rgba(109, 0, 26, 0.08);
+            --theme-pill-text: #1b1a19;
+            --theme-pill-border: rgba(109, 0, 26, 0.2);
+        }
+        
+
+        html.page-people body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Tajawal', sans-serif;
+            letter-spacing: 0.01em;
+            line-height: 1.7;
+            min-height: 100vh;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        /* الخلفية المتحركة - Subtle Grayscale */
+        html.page-people .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -1;
+            animation: float 10s infinite ease-in-out;
+            pointer-events: none;
+        }
+        html.page-people .orb-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--orb-1);
+        }
+        html.page-people .orb-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 60vw;
+            height: 60vw;
+            background: var(--orb-2);
+            animation-delay: -5s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(30px, 50px); }
+        }
+
+        /* الحاوية الرئيسية */
+        html.page-people .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 96%;
+        }
+
+        @media (min-width: 1024px) {
+            html.page-people .container {
+                width: 90%;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        /* === المكونات الزجاجية الموحدة - Minimalist === */
+        html.page-people .glass-panel {
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            transition: border-color 0.3s ease;
+        }
+        html.page-people .glass-panel:hover {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* === حقول الإدخال الزجاجية - Unified Style === */
+        html.page-people .glass-input, html.page-people select.glass-input {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            width: 100%;
+            outline: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 0.95rem;
+            letter-spacing: 0.01em;
+        }
+        html.page-people select.glass-input option {
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+        html.page-people .glass-input:focus, html.page-people select.glass-input:focus {
+            border-color: var(--input-focus-ring);
+            background: var(--input-selection-bg);
+            box-shadow: 0 0 2px var(--input-focus-ring);
+        }
+        html.page-people .glass-input::placeholder {
+            color: var(--text-muted);
+        }
+        html.page-people .glass-input:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* === الأزرار - Monochrome Silver === */
+        html.page-people .btn-primary {
+            background: var(--btn-primary-bg);
+            color: var(--btn-primary-text);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        html.page-people .btn-primary:hover {
+            background: var(--btn-primary-hover);
+            transform: translateY(-1px);
+            box-shadow: var(--glow-subtle);
+        }
+        html.page-people .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        /* === Theme Switcher === */
+        html.page-people .theme-switcher {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 4px;
+            background: var(--theme-pill-bg);
+            border: 1px solid var(--theme-pill-border);
+            border-radius: 999px;
+        }
+        html.page-people .theme-btn {
+            background: transparent;
+            color: var(--text-muted);
+            border: none;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        html.page-people .theme-btn:hover {
+            color: var(--text-color);
+        }
+        html.page-people .theme-btn.active {
+            background: var(--btn-primary-bg);
+            color: var(--btn-primary-text);
+            box-shadow: var(--glow-subtle);
+        }
+
+        /* === كارت الشخص - Minimalist === */
+        html.page-people .person-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+        html.page-people .person-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--glass-border);
+            background: var(--hover-bg);
+        }
+        
+        html.page-people .role-badge { 
+            font-size: 0.7rem; 
+            padding: 2px 8px; 
+            border-radius: 20px; 
+            font-weight: 500; 
+            background: var(--glass-bg);
+            color: var(--text-muted);
+            display: inline-block;
+        }
+
+        /* === شريط التمرير - Grayscale === */
+        html.page-people ::-webkit-scrollbar { width: 8px; }
+        html.page-people ::-webkit-scrollbar-track { background: var(--bg-color); }
+        html.page-people ::-webkit-scrollbar-thumb { background: var(--accent-gray-700); border-radius: 4px; }
+        html.page-people ::-webkit-scrollbar-thumb:hover { background: var(--accent-gray-600); }
+
+        /* === Professional Modal Styles === */
+        html.page-people .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--modal-overlay);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        html.page-people .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        html.page-people .modal-content {
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            width: 96%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: var(--modal-shadow);
+            transform: scale(0.95) translateY(20px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        html.page-people .modal-overlay.active .modal-content {
+            transform: scale(1) translateY(0);
+        }
+
+        html.page-people .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            z-index: 10;
+        }
+
+        html.page-people .modal-body {
+            padding: 1.5rem;
+        }
+
+        html.page-people .modal-footer {
+            padding: 1.5rem;
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+
+        html.page-people .btn-close {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        html.page-people .btn-close:hover {
+            background: var(--active-bg);
+            border-color: var(--input-focus-ring);
+        }
+
+        /* Modal scrollbar */
+        html.page-people .modal-content::-webkit-scrollbar {
+            width: 6px;
+        }
+        html.page-people .modal-content::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+        html.page-people .modal-content::-webkit-scrollbar-thumb {
+            background: var(--accent-gray-700);
+            border-radius: 3px;
+        }
+        html.page-people .modal-content::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-gray-600);
+        }
+
+        /* Health status badges - monochrome */
+        html.page-people .health-healthy {
+            color: var(--health-ok);
+        }
+        html.page-people .health-issue {
+            color: var(--health-disability);
+        }
+
+        html.page-people .stat-btn {
+            cursor: pointer;
+        }
+        html.page-people .stat-btn.active {
+            box-shadow: 0 0 0 2px var(--accent-gray-500);
+        }
+
+        html.page-people .actions-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        html.page-people .results-count {
+            margin: 0 0 1rem 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+
+
+/* ===== rooms.php ===== */
+
+html.page-rooms {
+        --bg-color: #0b0a09;
+        --card-bg: #141210;
+        --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --glass-bg: rgba(241, 238, 231, 0.03);
+        --glass-border: rgba(241, 238, 231, 0.08);
+        --glass-blur: blur(16px);
+        --text-color: #f1eee7;
+        --text-muted: #b6aea6;
+
+        --monochrome-1: #f1eee7;
+        --monochrome-2: #d9d2c9;
+        --monochrome-3: #b6aea6;
+        --monochrome-4: #9c958d;
+        --monochrome-5: #5f5a57;
+        --monochrome-6: #3b3836;
+        --monochrome-7: #201f1e;
+        --monochrome-8: #0b0a09;
+
+        --success: #9c958d;
+        --danger: #8a1028;
+        --danger-hover: #a11a34;
+        --warning: #9c958d;
+
+        --hover-bg: rgba(241, 238, 231, 0.04);
+        --active-bg: rgba(241, 238, 231, 0.08);
+        --glow-subtle: 0 0 20px rgba(109, 0, 26, 0.2);
+
+        --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+        --btn-primary-text: #f1eee7;
+
+        --input-focus-ring: rgba(241, 238, 231, 0.35);
+        --input-selection-bg: rgba(241, 238, 231, 0.08);
+
+        --modal-overlay: rgba(6, 6, 6, 0.95);
+        --modal-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+
+        --orb-1: radial-gradient(
+          circle,
+          rgba(109, 0, 26, 0.18) 0%,
+          transparent 70%
+        );
+        --orb-2: radial-gradient(
+          circle,
+          rgba(156, 149, 141, 0.14) 0%,
+          transparent 70%
+        );
+      }
+
+      html.page-rooms[data-theme="burgundy"] {
+        --bg-color: #f6f3ef;
+        --card-bg: #ffffff;
+        --primary-gradient: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --glass-bg: rgba(27, 26, 25, 0.02);
+        --glass-border: rgba(27, 26, 25, 0.12);
+        --text-color: #1b1a19;
+        --text-muted: #6f6a66;
+
+        --monochrome-1: #1b1a19;
+        --monochrome-2: #2e2b29;
+        --monochrome-3: #4b4745;
+        --monochrome-4: #6f6a66;
+        --monochrome-5: #8f8881;
+        --monochrome-6: #b9b2ab;
+        --monochrome-7: #ded8d1;
+        --monochrome-8: #f6f3ef;
+
+        --success: #4b4745;
+        --danger: #6d001a;
+        --danger-hover: #7a1126;
+        --warning: #6f6a66;
+
+        --hover-bg: rgba(109, 0, 26, 0.06);
+        --active-bg: rgba(109, 0, 26, 0.12);
+        --glow-subtle: 0 0 18px rgba(109, 0, 26, 0.25);
+
+        --btn-primary-bg: linear-gradient(135deg, #6d001a 0%, #4c0012 100%);
+        --btn-primary-hover: linear-gradient(135deg, #7a1126 0%, #5a0016 100%);
+        --btn-primary-text: #f6f3ef;
+
+        --input-focus-ring: rgba(109, 0, 26, 0.35);
+        --input-selection-bg: rgba(109, 0, 26, 0.08);
+
+        --modal-overlay: rgba(17, 16, 15, 0.6);
+        --modal-shadow: 0 24px 60px rgba(27, 26, 25, 0.25);
+
+        --orb-1: radial-gradient(
+          circle,
+          rgba(109, 0, 26, 0.12) 0%,
+          transparent 70%
+        );
+        --orb-2: radial-gradient(
+          circle,
+          rgba(27, 26, 25, 0.08) 0%,
+          transparent 70%
+        );
+      }
+
+      html.page-rooms * {
+        box-sizing: border-box;
+      }
+
+      html.page-rooms body {
+        margin: 0;
+        font-family: "Tajawal", sans-serif;
+        background: var(--bg-color);
+        color: var(--text-color);
+        min-height: 100vh;
+      }
+
+      html.page-rooms .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      html.page-rooms .orb {
+        position: fixed;
+        border-radius: 50%;
+        filter: blur(100px);
+        z-index: -1;
+        animation: float 10s infinite ease-in-out;
+        pointer-events: none;
+      }
+      html.page-rooms .orb-1 {
+        top: -10%;
+        left: -10%;
+        width: 50vw;
+        height: 50vw;
+        background: var(--orb-1);
+      }
+      html.page-rooms .orb-2 {
+        bottom: -10%;
+        right: -10%;
+        width: 60vw;
+        height: 60vw;
+        background: var(--orb-2);
+        animation-delay: -5s;
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(30px, 50px);
+        }
+      }
+
+      html.page-rooms .glass-panel {
+        background: var(--card-bg);
+        backdrop-filter: var(--glass-blur);
+        -webkit-backdrop-filter: var(--glass-blur);
+        border: 1px solid var(--glass-border);;
+        border-radius: 12px;
+        transition: border-color 0.3s ease;
+      }
+      html.page-rooms .glass-panel:hover {
+        border-color: rgba(255, 255, 255, 0.1);
+      }
+
+      html.page-rooms .glass-input, html.page-rooms select.glass-input {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        color: var(--text-color);
+        padding: 10px 15px;
+        border-radius: 8px;
+        width: 100%;
+        outline: none;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 0.95rem;
+        letter-spacing: 0.01em;
+      }
+      html.page-rooms select.glass-input option {
+        background: var(--card-bg);
+        color: var(--text-color);
+      }
+      html.page-rooms .glass-input:focus, html.page-rooms select.glass-input:focus {
+        border-color: var(--input-focus-ring);
+        background: var(--input-selection-bg);
+        box-shadow: 0 0 2px var(--input-focus-ring);
+      }
+      html.page-rooms .glass-input::placeholder {
+        color: var(--text-muted);
+      }
+
+      html.page-rooms .btn-primary {
+        background: var(--btn-primary-bg);
+        color: var(--btn-primary-text);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+      }
+      html.page-rooms .btn-primary:hover {
+        background: var(--btn-primary-hover);
+        transform: translateY(-1px);
+        box-shadow: var(--glow-subtle);
+      }
+      html.page-rooms .btn-primary:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+      }
+
+      html.page-rooms .theme-switcher {
+        display: inline-flex;
+        gap: 0.35rem;
+        padding: 0.3rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--glass-border);
+      }
+      html.page-rooms .theme-btn {
+        border: none;
+        background: transparent;
+        color: var(--text-muted);
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        cursor: pointer;
+        font-size: 0.85rem;
+      }
+      html.page-rooms .theme-btn.active {
+        background: var(--primary-gradient);
+        color: var(--btn-primary-text);
+      }
+
+      html.page-rooms .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        
+      }
+      html.page-rooms .stat-card {
+        padding: 1rem;
+        border-left: 4px solid #6d001a;
+      }
+      html.page-rooms .stat-card:hover {
+        border-left: 4px solid #7a1126;
+        border-right: 4px solid #7a1126;
+      }
+      html.page-rooms .stat-title {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.4rem;
+        
+      }
+      html.page-rooms .stat-value {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+
+      html.page-rooms .filters-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      html.page-rooms .rooms-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1rem;
+      }
+
+      html.page-rooms .section-title {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0 0 1rem 0;
+        color: var(--text-color);
+        border-bottom: 1px solid var(--glass-border);
+        padding-bottom: 0.5rem;
+      }
+
+      html.page-rooms .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      html.page-rooms .info-card {
+        padding: 1rem;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+      }
+      html.page-rooms .info-title {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        margin-bottom: 0.35rem;
+      }
+      html.page-rooms .info-value {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+      html.page-rooms .info-note {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+
+      html.page-rooms .building-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      html.page-rooms .building-card {
+        padding: 1rem;
+      }
+      html.page-rooms .progress-track {
+        background: rgba(255, 255, 255, 0.05);
+        height: 8px;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      html.page-rooms .progress-fill {
+        height: 100%;
+        background: var(--primary-gradient);
+        transition: width 0.3s ease;
+      }
+
+      html.page-rooms .actions-bar {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: space-between;
+        align-items: center;
+      }
+      html.page-rooms .action-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+      }
+      html.page-rooms .btn-mini {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+      }
+
+      html.page-rooms .results-count {
+        margin: 0 0 0.75rem 0;
+        color: var(--text-muted);
+      }
+
+      html.page-rooms .room-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+        margin-top: 0.6rem;
+      }
+      html.page-rooms .room-tag {
+        font-size: 0.72rem;
+        padding: 0.15rem 0.5rem;
+        border-radius: 999px;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        color: var(--text-muted);
+      }
+
+      html.page-rooms .room-card {
+        padding: 1rem;
+        position: relative;
+        overflow: hidden;
+      }
+      html.page-rooms .room-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.75rem;
+      }
+      html.page-rooms .room-title {
+        font-weight: 700;
+        font-size: 1.05rem;
+      }
+      html.page-rooms .status-pill {
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+      html.page-rooms .status-empty {
+        background: rgba(156, 149, 141, 0.15);
+        color: var(--text-muted);
+      }
+      html.page-rooms .status-occupied {
+        background: rgba(109, 0, 26, 0.2);
+        color: #e7c7cc;
+      }
+      html.page-rooms .status-shared {
+        background: rgba(95, 90, 87, 0.3);
+        color: #f1eee7;
+      }
+
+      html.page-rooms .room-meta {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+      }
+      html.page-rooms .room-families {
+        font-size: 0.85rem;
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+
+      html.page-rooms .empty-state {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-muted);
+      }
+
+
+
+/* ===== families_custom_styles.html ===== */
+
+html.page-styleguide {
+            /* === متغيرات CSS الموحدة - Monochrome Silver Theme === */
+            
+            /* نظام الألوان الأساسي */
+            --bg-color: #050505;
+            --card-bg: #0f0f0f;
+            --primary-gradient: linear-gradient(135deg, #ffffff 0%, #a1a1aa 100%);
+            --glass-bg: rgba(255, 255, 255, 0.02);
+            --glass-border: rgba(255, 255, 255, 0.05);
+            --glass-blur: blur(16px);
+            --text-color: #fafafa;
+            --text-muted: #a1a1aa;
+            
+            /* نظام الألوان المونوكروم - للاستخدام في الرسوم البيانية والإحصائيات */
+            --monochrome-1: #ffffff;       /* أبيض ناصع */
+            --monochrome-2: #e4e4e7;       /* رمادي فاتح جداً */
+            --monochrome-3: #d4d4d8;       /* رمادي فاتح */
+            --monochrome-4: #a1a1aa;       /* فضي محايد */
+            --monochrome-5: #71717a;       /* رمادي متوسط */
+            --monochrome-6: #52525b;       /* رمادي داكن */
+            --monochrome-7: #3f3f46;       /* رمادي غامق */
+            --monochrome-8: #000000;       /* أسود ناصع */
+            
+            /* الألوان الهامة - جميعها مونوكروم */
+            --success: #737373;            /* رمادي فاتح للنجاح */
+            --error: #525252;             /* رمادي داكن للأخطاء */
+            --warning: #a3a3a3;           /* رمادي متوسط للتحذيرات */
+            
+            /* تأثيرات التفاعل */
+            --hover-bg: rgba(255, 255, 255, 0.03);
+            --active-bg: rgba(255, 255, 255, 0.05);
+            --glow-subtle: 0 0 20px rgba(255, 255, 255, 0.05);
+            
+            /* تنسيقات الأزرار الموحدة */
+            --btn-primary-bg: linear-gradient(135deg, #ffffff 0%, #a1a1aa 100%);
+            --btn-primary-hover: linear-gradient(135deg, #fafafa 0%, #9ca3af 100%);
+            --btn-primary-text: #000000;
+            
+            /* تنسيقات الحقول */
+            --input-focus-ring: rgba(255, 255, 255, 0.3);
+            --input-selection-bg: rgba(255, 255, 255, 0.08);
+            
+            /* تنسيقات المودال */
+            --modal-overlay: rgba(0, 0, 0, 0.95);
+            --modal-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            
+            /* تنسيقات الأزرار خارجية */
+            --modal-close-btn-bg: rgba(0, 0, 0, 0.90);
+            --modal-close-btn-hover: rgba(0, 0, 0, 1);
+            --modal-close-btn-border: rgba(255, 255, 255, 0.15);
+        }
+        
+        html.page-styleguide body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Tajawal', sans-serif;
+            letter-spacing: 0.01em;
+            line-height: 1.7;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        html.page-styleguide .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        html.page-styleguide h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+            border-bottom: 2px solid var(--glass-border);
+            padding-bottom: 1rem;
+        }
+
+        html.page-styleguide h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: var(--text-color);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 0.5rem;
+        }
+
+        html.page-styleguide h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 1rem 0;
+            color: var(--text-color);
+        }
+
+        html.page-styleguide .section {
+            background: var(--card-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        html.page-styleguide .code-block {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            direction: ltr;
+            color: #fafafa;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            border: 1px solid var(--glass-border);
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        html.page-styleguide .color-swatch {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 6px;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+            border: 1px solid var(--glass-border);
+        }
+
+        html.page-styleguide .info-note {
+            background: var(--hover-bg);
+            border-left: 3px solid var(--monochrome-4);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* نموذج الإدخال */
+        html.page-styleguide .glass-input, html.page-styleguide select.glass-input {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            width: 100%;
+            outline: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 0.95rem;
+            letter-spacing: 0.01em;
+        }
+
+        /* زر الإغلاق الخارجي */
+        html.page-styleguide .modal-close-btn {
+            background: var(--modal-close-btn-bg);
+            border: 1px solid var(--modal-close-btn-border);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color: var(--text-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        html.page-styleguide .modal-close-btn:hover {
+            background: var(--modal-close-btn-hover);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* زر الحفظ الأساسي */
+        html.page-styleguide .btn-primary {
+            background: var(--btn-primary-bg);
+            color: var(--btn-primary-text);
+            border: none;
+            padding: 10px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        html.page-styleguide .btn-primary:hover {
+            background: var(--btn-primary-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--glow-subtle);
+        }
+        html.page-styleguide .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        /* المكونات الزجاجية */
+        html.page-styleguide .glass-panel {
+            background: var(--card-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            transition: border-color 0.3s ease;
+        }
+        html.page-styleguide .glass-panel:hover {
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* شريط التمرير */
+        html.page-styleguide ::-webkit-scrollbar { width: 8px; }
+        html.page-styleguide ::-webkit-scrollbar-track { background: #050505; }
+        html.page-styleguide ::-webkit-scrollbar-thumb { background: var(--monochrome-6); border-radius: 4px; }
+        html.page-styleguide ::-webkit-scrollbar-thumb:hover { background: var(--monochrome-5); }
+
+        html.page-styleguide .preview-toast {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            background: rgba(0, 0, 0, 0.85);
+            border: 1px solid var(--glass-border);
+            color: var(--text-color);
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        html.page-styleguide .preview-toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
